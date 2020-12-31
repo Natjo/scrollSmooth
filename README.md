@@ -36,4 +36,4 @@ ScrollSmooth(scrollY => {
 
 
 ## Demo
-[See codepen demo](https://codepen.io/natjo/pen/VwvxBPm?editors=0110)
+[See codepen demo](https://codepen.io/natjo/pen/ExVxqKm)

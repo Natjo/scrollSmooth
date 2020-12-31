@@ -1,14 +1,15 @@
 /**
- * Smooth native scroll
+ * Smooth scroll
  * @module ScrollSmooth
  *
- * @param {object} params
- * @param {function} params.onscroll
+ * @param {Object} params
+ * @param {Function} params.onscroll
+ * @return {number} scroll offset
  * 
  */
 
 
-function ScrollSmooth(params) {
+function ScrollSmooth(onscroll) {
     const isTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
     const el = document.querySelector('[data-scroll]');
     const content = document.querySelector('[data-scroll-content]');
